@@ -1,0 +1,201 @@
+---
+title: "RNA-seq Variant Annotation Report"
+subtitle: "Report Prepared by UFHCC BCB-SR"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: flatly
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(openxlsx)
+library(DT)
+```
+
+# Project Summary
+
+**PI**: [Dr. Weizhou Zhang](mailto:zhangw@ufl.edu)
+
+**Institution**: University of Florida
+
+**Department**: Department of Pathology & Immunology
+
+**Study Contact**: [Tanzia Islam](mailto:ttithi@ufl.edu)
+
+**Project Title**: Mutation calling using 4T1 and PY8119 WT, MSH2KO, MLH1KO RNAseq data (JiaoMo folder, orange drive). 
+
+**Study Summary**: Item under "Experiments to finish the current project (MLH1 MSH2)"
+
+**Sample type(s)**: Unknown
+
+**Organism**: Mouse
+
+**Analysis goal(s)**: Identify whether ATAC-seq and RNA-seq (expression) results are related to variants identified in these samples.
+
+**Report-prepared-by**:  [Dr. Heather Kates](mailto:hkates@ufl.edu)
+
+# Introduction
+
+This report summarizes the variant calling and annotation results from RNA-seq data, using the `nf-core/rnavar` pipeline followed by downstream annotation with SnpEff and post-processing in R. The goal is to identify and interpret variants in expressed transcripts and produce interpretable tables for review and analysis.
+
+All relevant files, including the annotated variant tables, MultiQC report, scripts, and Excel output, are available here. Note that one of the samples' variant table is very large and not readble in excel.
+
+**[🗂️ View and Download Report Files]https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/)**
+
+---
+
+# Methods
+
+## nf-core/rnavar Pipeline
+
+Variant calling was performed using [`nf-core/rnavar`](https://nf-co.re/rnavar), a Nextflow-based pipeline that wraps best-practice tools for RNA variant detection. It includes:
+
+- Read alignment using STAR or HISAT2
+- Marking duplicates and filtering
+- Variant calling using Strelka2 or GATK
+- SnpEff-based variant annotation
+- Summary reporting via MultiQC
+
+> 🔎 **Note:** The MultiQC report for `rnavar` includes only method summaries and pipeline logs — **not sequencing quality metrics** like FastQC or alignment stats. This is a known limitation.
+
+📄 [MultiQC Report](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/multiqc_report.html)
+
+## Variant Annotation with SnpEff
+
+Variants were annotated using **SnpEff** (vX.X) to predict effects on transcripts. Each variant may have multiple annotations (e.g., one per transcript it affects). SnpEff also provides a categorical `Impact` label for severity.
+
+📄 [SnpEff Bash Script](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/scripts/01_run_snpeff.sh)
+
+## R-based Annotation Postprocessing
+
+Two separate R scripts were used:
+
+### 1️⃣ Per-sample CSV export (no filtering)
+- Reads in annotated VCFs  
+- Parses the `ANN` field and flattens per-variant annotations  
+- Expands each variant row to match the number of annotations  
+- Saves **one CSV file per sample**, preserving all annotated variants  
+
+📜 [R script](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/scripts/02_annotate_and_extract_variants.R)
+
+📊 [Raw Variants csv per-sample Output](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/OUTPUT/variant_tables/)
+
+---
+
+### 2️⃣ Filtered Excel summary with README
+- Loads the per-sample CSVs  
+- **Applies filtering** to retain only variants meeting all of the following:  
+  - `Impact` is `"MODERATE"` or `"HIGH"`  
+  - `TranscriptBiotype` is `"protein_coding"`  
+  - `Distance` is `NA` or `0` (i.e., not intergenic)  
+  - `Effect` is in one of:  
+    - `"missense_variant"`  
+    - `"stop_gained"`  
+    - `"splice_acceptor_variant"`  
+    - `"splice_donor_variant"`  
+- Writes results to a **single Excel file**:  
+  - One sheet per sample with filtered variants  
+  - A `README` sheet explaining all fields and filtering  
+
+📜 [R script](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/scripts/03_write_variant_tables_to_excel.R)  
+
+📊 [Filtered Variantes Excel Output](https://data.rc.ufl.edu/pub/cancercenter-dept/BCB-SR/Zhangw/TANZIA/MLH1MSH2/Jiao_rnaseq_var/reporting/OUTPUT/variant_summary.xlsx)
+
+---
+
+# Column Definitions
+
+The following columns appear in the `variant_summary.xlsx` file. These are derived from the VCF and the SnpEff `ANN` field. This is also described in the README sheet in the excel file.
+
+| Column              | Description |
+|---------------------|-------------|
+| **Sample**          | Sample name or ID |
+| **Chrom**           | Chromosome of the variant (e.g., `chr1`) |
+| **Pos**             | Genomic position (1-based) |
+| **Ref**             | Reference allele |
+| **Alt**             | Alternate (variant) allele |
+| **Qual**            | Quality score (Phred-scaled) — e.g., 30 = 1 in 1000 chance of error |
+| **Allele**          | The allele being annotated (usually `Alt`) |
+| **Effect**          | Predicted variant effect (e.g., `missense_variant`) |
+| **Impact**          | Severity classification (see below) |
+| **GeneName**        | Gene symbol (e.g., `TP53`) |
+| **GeneID**          | Ensembl or other gene ID |
+| **FeatureType**     | Affected feature type (e.g., `transcript`) |
+| **FeatureID**       | Transcript or feature ID |
+| **TranscriptBiotype** | Transcript type (e.g., `protein_coding`) |
+| **Rank**            | Exon/intron rank (e.g., `2/8`) |
+| **HGVS.c**          | HGVS cDNA-level notation (e.g., `c.215C>G`) |
+| **HGVS.p**          | HGVS protein-level notation (e.g., `p.Pro72Arg`) |
+| **cDNA.pos**        | Position in cDNA |
+| **CDS.pos**         | Position in coding sequence |
+| **AA.pos**          | Amino acid position |
+| **Distance**        | Distance to nearest gene if intergenic |
+| **ErrorsWarnings**  | Any annotation issues from SnpEff |
+
+**Impact categories:**
+
+- `HIGH`: Disruptive (e.g., stop gained)  
+- `MODERATE`: Non-disruptive but changes protein  
+- `LOW`: Benign (e.g., synonymous)  
+- `MODIFIER`: Non-coding or unknown effect
+
+---
+
+# Summary Tables and Plots
+
+Below are basic summaries of the annotated variants, focusing on the `Impact` category.
+
+## Load Variant Tables
+
+```{r load-data}
+files <- list.files("../OUTPUT/variant_tables", pattern = "\\.csv$", full.names = TRUE)
+
+# Exclude files starting with "all_samples"
+files <- files[!grepl("^all_samples", basename(files))]
+
+# Read in variant CSVs
+variant_list <- lapply(files, readr::read_csv)
+names(variant_list) <- tools::file_path_sans_ext(basename(files))
+
+# Combine all into one table
+all_variants <- dplyr::bind_rows(variant_list, .id = "SampleFile") %>%
+  dplyr::mutate(Sample = gsub("_annotated$", "", SampleFile))
+```
+
+## Table: Count of Variant Effects by Impact
+
+```{r impact-table}
+impact_counts <- all_variants %>%
+  count(Sample, Impact) %>%
+  pivot_wider(names_from = Impact, values_from = n, values_fill = 0)
+
+DT::datatable(impact_counts, caption = "Count of Variants per Sample by Impact Level")
+```
+
+## Plot: Variant Impacts by Sample
+
+```{r impact-plot}
+ggplot(all_variants, aes(x = Sample, fill = Impact)) +
+  geom_bar(position = "stack") +
+  theme_minimal() +
+  labs(title = "Variant Impact Distribution by Sample",
+       x = "Sample",
+       y = "Number of Annotations") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+---
+
+# Conclusions
+
+This report documents the RNA-seq variant detection and annotation process from raw reads through VCF parsing and effect prediction. The accompanying Excel file contains structured annotations suitable for downstream prioritization, filtering, or visualization.
+
+Possible next steps: Figure out why MLH1KO_REP3 is an outlier and determine whether it needs to be ommitted or processed in some way. Apply different or further filters (e.g., impact = HIGH, quality > 30), compare samples, integrate with expression data.

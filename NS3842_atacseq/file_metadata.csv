@@ -1,0 +1,106 @@
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/8_summary/ATACseq_results_summary.csv,ATACseq,MLH1,CSV,Unknown,Summary,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-3_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-2_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-1_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-1_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-3.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-3.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-1.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-3_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-1_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-3_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-1_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-1.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-2_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-2_sort_n.bam.bai,ATACseq,MLH1,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-2.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-2.bw,ATACseq,MLH1,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1R4-3_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/6_bigwig/MLH1KO-2_sort_n.bam,ATACseq,MLH1,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-2.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-2.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-2.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-2.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-3.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-1.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-1.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-3.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-2.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-3.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-2.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-1.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-1.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-3.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-2.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-3.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-3.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-3.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-1.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-1.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-3.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-1.filtered.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1KO-1.sorted.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/4a_samtools/MLH1R4-2.filt.bam,ATACseq,MLH1,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1_Differential_binding_results.xlsx,ATACseq,MLH1,Excel,Diffbind ( R ) ,Differential Binding Analysis,Excel file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1KO_peaks_binding_log2FC.bedgraph,ATACseq,MLH1,BedGraph,Diffbind ( R ) ,Differential Binding Analysis,BedGraph file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1R4_filtered_differential_binding_results.csv,ATACseq,MLH1,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1KO_filtered_differential_binding_results.csv,ATACseq,MLH1,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1_differential_binding_results.csv,ATACseq,MLH1,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1K0_peaks_gene_expression_log2FC.bedgraph,ATACseq,MLH1,BedGraph,Diffbind ( R ) ,Differential Binding Analysis,BedGraph file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/7_diffbind/MLH1_dbaObj.RDATA,ATACseq,MLH1,RData,Diffbind ( R ) ,Differential Binding Analysis,RData file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/9_HOMER/MLH1R4_peaks_motifs/knownResults.csv,ATACseq,MLH1,CSV,HOMER,Post Differential Binding (Motif finder),CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MLH1/results/9_HOMER/MLH1KO_peaks_motifs/knownResults.csv,ATACseq,MLH1,CSV,HOMER,Post Differential Binding (Motif finder),CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/9_HOMER/MSH2KO_peaks_motifs/knownResults.csv,ATACseq,MLH1,CSV,HOMER,Post Differential Binding (Motif finder),CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/9_HOMER/MSH2R4_peaks_motifs/knownResults.csv,ATACseq,MLH1,CSV,HOMER,Post Differential Binding (Motif finder),CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/8_summary/ATACseq_results_summary.csv,ATACseq,MLH1,CSV,Bash,Summary,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-2_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-2.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-3_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-2_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-1_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-3.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-3_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-2.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-1_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-1.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-3_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-2_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-3.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-3_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2KO-1_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-2_sort_n.bam.bai,ATACseq,MSH2,BAI,BigWig Tools,For IGV browser,BAI file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-1.bw,ATACseq,MSH2,Other,BigWig Tools,For IGV browser,Other file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/6_bigwig/MSH2R4-1_sort_n.bam,ATACseq,MSH2,BAM,BigWig Tools,For IGV browser,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-3.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-3.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-1.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-1.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-3.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-2.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-3.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-3.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-3.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-1.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-3.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-2.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-2.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-2.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-1.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-1.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-2.sorted.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-2.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-2.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-2.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-1.filt.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2KO-1.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-1.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/4a_samtools/MSH2R4-3.filtered.bam,ATACseq,MSH2,BAM,Samtools,Filtered alignment to reference,BAM file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2_Differential_binding_results.xlsx,ATACseq,MSH2,Excel,Diffbind ( R ) ,Differential Binding Analysis,Excel file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2_differential_binding_results.csv,ATACseq,MSH2,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2KO_filtered_differential_binding_results.csv,ATACseq,MSH2,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2KO_peaks_binding_log2FC.bedgraph,ATACseq,MSH2,BedGraph,Diffbind ( R ) ,Differential Binding Analysis,BedGraph file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2R4_annotated_peaks.csv,ATACseq,MSH2,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2R4_filtered_differential_binding_results.csv,ATACseq,MSH2,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2K0_peaks_gene_expression_log2FC.bedgraph,ATACseq,MSH2,BedGraph,Diffbind ( R ) ,Differential Binding Analysis,BedGraph file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2KO_annotated_peaks.csv,ATACseq,MSH2,CSV,Diffbind ( R ) ,Differential Binding Analysis,CSV file generated during ATACseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/results/7_diffbind/MSH2_dbaObj.RDATA,ATACseq,MSH2,RData,Diffbind ( R ) ,Differential Binding Analysis,RData file generated during ATACseq analysis.

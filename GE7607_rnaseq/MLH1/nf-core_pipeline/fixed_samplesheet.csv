@@ -1,0 +1,8 @@
+sample,fastq_1,fastq_2,strandedness
+MLH1KO-1,../data/MLH1KO-1_S1_L002_R1_001.fastq.gz,../data/MLH1KO-1_S1_L002_R2_001.fastq.gz,auto
+MLH1KO-2,fixed_fastqs/MLH1KO-2_R1_fixed.fastq.gz,fixed_fastqs/MLH1KO-2_R2_fixed.fastq.gz,auto
+MLH1KO-3,fixed_fastqs/MLH1KO-3_R1_fixed.fastq.gz,fixed_fastqs/MLH1KO-3_R2_fixed.fastq.gz,auto
+MLH1R4-1,../data/MLH1R4-1_S4_L002_R1_001.fastq.gz,../data/MLH1R4-1_S4_L002_R2_001.fastq.gz,auto
+MLH1R4-2,../data/MLH1R4-2_S5_L002_R1_001.fastq.gz,../data/MLH1R4-2_S5_L002_R2_001.fastq.gz,auto
+MLH1R4-3,fixed_fastqs/MLH1R4-3_R1_fixed.fastq.gz,fixed_fastqs/MLH1R4-3_R2_fixed.fastq.gz,auto
+

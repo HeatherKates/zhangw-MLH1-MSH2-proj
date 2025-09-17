@@ -1,0 +1,11 @@
+sample,fastq_1,fastq_2
+MLH1KO_REP1,/orange/zhangw/mojiao/RNA/exp2/M1/M1_S1_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M1/M1_S1_L004_R2_001.fastq.gz
+MLH1KO_REP2,/orange/zhangw/mojiao/RNA/exp2/M2/M2_S2_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M2/M2_S2_L004_R2_001.fastq.gz
+MLH1KO_REP3,/orange/zhangw/mojiao/RNA/exp2/M3/M3_S3_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M3/M3_S3_L004_R2_001.fastq.gz
+MSH2KO_REP1,/orange/zhangw/mojiao/RNA/exp2/M4/M4_S4_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M4/M4_S4_L004_R2_001.fastq.gz
+MSH2KO_REP2,/orange/zhangw/mojiao/RNA/exp2/M5/M5_S5_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M5/M5_S5_L004_R2_001.fastq.gz
+MSH2KO_REP3,/orange/zhangw/mojiao/RNA/exp2/M6/M6_S6_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M6/M6_S6_L004_R2_001.fastq.gz
+WT_REP1,/orange/zhangw/mojiao/RNA/exp2/M7/M7_S7_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M7/M7_S7_L004_R2_001.fastq.gz
+WT_REP2,/orange/zhangw/mojiao/RNA/exp2/M8/M8_S8_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M8/M8_S8_L004_R2_001.fastq.gz
+WT_REP3,/orange/zhangw/mojiao/RNA/exp2/M9/M9_S9_L004_R1_001.fastq.gz,/orange/zhangw/mojiao/RNA/exp2/M9/M9_S9_L004_R2_001.fastq.gz
+

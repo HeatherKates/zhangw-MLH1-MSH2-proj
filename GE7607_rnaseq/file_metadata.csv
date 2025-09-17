@@ -1,0 +1,11 @@
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MLH1/results/4_deseq2/MLH1_DESeq2_gene_results.csv,RNAseq,MLH1,CSV,DESeq2,Differential Expression,CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MLH1/results/4_deseq2/MLH1_DESeq2_result.RDATA,RNAseq,MLH1,RData,DESeq2,Differential Expression,RData file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MLH1/results/4_deseq2/MLH1_DESeq2_analysis_dataframes.xlsx,RNAseq,MLH1,Excel,DESeq2,Differential Expression,Excel file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MLH1/results/6_GO/MLH1_combined_go_enrichment_up.csv,RNAseq,MLH1,CSV,GO ( R ),Post Differential Expression (Gene ontology enrichment),CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MLH1/results/6_GO/MLH1_combined_go_enrichment_down.csv,RNAseq,MLH1,CSV,GO ( R ),Post Differential Expression (Gene ontology enrichment),CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MSH2/results/4_deseq2/MSH2_DESeq2_analysis_dataframes.xlsx,RNAseq,MSH2,Excel,DESeq2,Differential Expression,Excel file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MSH2/results/4_deseq2/MSH2_DESeq2_gene_results.csv,RNAseq,MSH2,CSV,DESeq2,Differential Expression,CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MSH2/results/4_deseq2/orig.MSH2_DESeq2_gene_results.csv,RNAseq,MSH2,CSV,DESeq2,Differential Expression,CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/MSH2/results/4_deseq2/MSH2_DESeq2_result.RDATA,RNAseq,MSH2,RData,DESeq2,Differential Expression,RData file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/fastqc_summary.csv,RNAseq,MSH2 and MLH1,CSV,fastQC,QC,CSV file generated during RNAseq analysis.
+/blue/zhangw/hkates/TanziaMLH1MSH2/RNAseq/combined_DE_results.csv,RNAseq,MSH2 and MLH1,CSV,DESeq2,Differential Expression,CSV file generated during RNAseq analysis.

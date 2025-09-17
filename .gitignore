@@ -1,0 +1,93 @@
+# Large sequencing data files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.fna
+*.ffn
+*.faa
+
+# Reference genomes and indices
+*.fai
+*.sa
+*.ann
+*.amb
+*.pac
+*.bwt
+*.bt2
+*.1.bt2
+*.2.bt2
+*.3.bt2
+*.4.bt2
+*.rev.1.bt2
+*.rev.2.bt2
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Variant calling files
+*.vcf
+*.vcf.gz
+*.bcf
+*.g.vcf
+*.g.vcf.gz
+
+# Peak calling and coverage files
+*.bed
+*.narrowPeak
+*.broadPeak
+*.bedgraph
+*.bg
+*.wig
+*.bigwig
+*.bw
+*.bigbed
+*.bb
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+**/logs/
+slurm-*.out
+
+# Temporary and cache directories
+work/
+singularity_cache/
+.nextflow/
+.nextflow.log*
+trace.txt*
+timeline.html*
+report.html*
+
+# Large output directories (preserve structure with .gitkeep)
+OUTPUT/
+**/OUTPUT/
+results/*/
+**/results/*/
+fixed_fastqs/
+**/fixed_fastqs/
+
+# R/Python specific
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+*.pyo
+
+# Compressed archives
+*.tar.gz
+*.zip
+*.7z
+
+# Keep directory structure with .gitkeep files
+!.gitkeep
+!**/.gitkeep

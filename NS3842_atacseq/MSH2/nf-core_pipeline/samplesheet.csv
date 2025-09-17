@@ -1,0 +1,14 @@
+sample,fastq_1,fastq_2,replicate
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-1_S7_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-1_S7_L001_R2_001.fastq.gz,1
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-1_S19_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-1_S19_L002_R2_001.fastq.gz,1
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-2_S8_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-2_S8_L001_R2_001.fastq.gz,2
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-2_S20_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-2_S20_L002_R2_001.fastq.gz,2
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-3_S9_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-3_S9_L001_R2_001.fastq.gz,3
+MSH2KO,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-3_S21_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2KO-3_S21_L002_R2_001.fastq.gz,3
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-1_S10_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-1_S10_L001_R2_001.fastq.gz,1
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-1_S22_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-1_S22_L002_R2_001.fastq.gz,1
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-2_S11_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-2_S11_L001_R2_001.fastq.gz,2
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-2_S23_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-2_S23_L002_R2_001.fastq.gz,2
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-3_S12_L001_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-3_S12_L001_R2_001.fastq.gz,3
+MSH2R4,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-3_S24_L002_R1_001.fastq.gz,/blue/zhangw/hkates/TanziaMLH1MSH2/ATACseq/MSH2/data/231-MSH2R4-3_S24_L002_R2_001.fastq.gz,3
+
