@@ -16,10 +16,17 @@ URLS=(
   "https://ftp.ebi.ac.uk/pub/databases/mousegenomes/REL-1505-SNPs_Indels/mgp.v5.merged.indels.dbSNP142.normed.vcf.gz.tbi"
 )
 
-# Download each file
+# Download each file if it doesn't exist
 for url in "${URLS[@]}"; do
-  echo "Downloading $url..."
-  wget -N "$url"
+  # Extract filename from URL
+  filename=$(basename "$url")
+  
+  if [[ -f "$filename" ]]; then
+    echo "File $filename already exists, skipping download."
+  else
+    echo "Downloading $filename..."
+    wget "$url"
+  fi
 done
 
-echo "All files downloaded to $TARGET_DIR"
+echo "All files processed in $TARGET_DIR"
